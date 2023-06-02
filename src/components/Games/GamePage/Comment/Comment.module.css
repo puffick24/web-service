@@ -1,0 +1,18 @@
+.comment_wrapper{
+    list-style: none;
+    padding: 20px;
+}
+
+.comment_wrapper li{
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.recall{
+    padding: 10px 0 25px;
+    color: #c0c0c0;
+}
+.comment_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

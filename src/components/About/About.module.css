@@ -1,0 +1,114 @@
+.about_wrapper{
+    background-color: #4b535e;
+    color: #FFF;
+    padding-top: 180px;
+    position: relative;
+}
+
+.square{
+    position: absolute;
+    width: 1060px;
+    height: 300px;
+    background-color: #f9cf68;
+    border-radius: 0 50px 50px 0;
+    bottom: 59%;
+}
+
+.about_container{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.about_general_info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.about_general_info > div{
+    padding: 20px 30px 0 0;
+    color: #2e2e2e;
+}
+
+.about_general_info img{
+    width: 500px;
+    height: 250px;
+}
+
+.about_general_info p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.about_info{
+    padding-bottom: 40px;
+}
+
+.about_info p, .about_info a{
+    color: #c9c9c9;
+}
+
+.about_info h2{
+    padding-bottom: 20px;
+}
+
+.about_info_list{
+    list-style: none;
+    display: grid;
+    padding: 30px 50px 0 50px;
+    grid-template-columns: repeat(3,300px);
+    gap: 50px 100px;
+    margin: 0 auto;
+}
+
+.about_info_list li a:hover{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.about_info_list_item h4{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.about_info_list_item img{
+    width: 24px;
+    margin-right: 5px;
+}
+
+.about_info_list_item span{
+    font-size: 18px;
+    color: #f1463e;
+}
+
+.about_review{
+    padding-bottom: 50px;
+}
+
+.about_review_list{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.about_review_list_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 200px;
+    background-color: #292F36;
+    border-radius: 15px;
+    color: #737f8a;
+    font-size: 25px;
+}
+
+.about_review_list_item img{
+    width: 50px;
+    height: auto;
+}

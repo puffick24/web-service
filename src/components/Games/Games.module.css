@@ -1,0 +1,74 @@
+.games_wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #4b535e;
+    min-height: 100vh;
+    position: relative;
+}
+
+.games_container{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games_container h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.consoles_container_list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 25px;
+    background-color: #292F36;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.consoles_container_list li:not(:last-child) {
+    background-image: linear-gradient(to right, transparent 0%, transparent calc(50% - 1px), white 50%, transparent calc(50% + 1px), transparent 100%);
+    background-position: right;
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+.selected {
+    text-decoration: underline;
+    color: #007bff;
+    text-underline-offset: 0.3em;
+}
+
+.add_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    background-color: #007bff;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .add_button:hover {
+    background-color: #0155af;
+  }
+  
+  .add_button:focus {
+    outline: none;
+  }
+  
+  .add_button:active {
+    transform: scale(0.95);
+  }

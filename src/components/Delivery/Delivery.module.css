@@ -1,0 +1,141 @@
+.delivery_wrapper{
+    padding-top: 180px;
+    background-color: #4b535e;
+    color: #FFF;
+}
+
+.circle{
+    position: absolute;
+    right: -15%;
+    top: -40%;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #1e2125;
+}
+
+.delivery_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conditions h2{
+    font-size: 35px;
+}
+
+.conditions h3{
+    padding: 20px 0 30px;
+}
+
+.conditions ul{
+    padding-bottom: 20px;
+}
+
+.conditions li{
+    color: #c9c9c9;
+}
+
+.conditions p{
+    padding: 15px 0;
+}
+
+.conditions_header{
+    display: flex;
+    gap: 20px;
+}
+
+.conditions_image{
+    width: 60px;
+    height: 60px;
+}
+
+.conditions_list {
+    list-style-type: none;
+}
+  
+.conditions_list li:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../../images/confirm.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.delivery{
+    padding: 30px 0 60px;
+}
+
+.delivery_block p{
+    color: #c9c9c9;
+}
+
+.delivery_block div img{
+    width: 400px;
+}
+
+.delivery_block{
+    display: flex;
+    gap: 10px;
+}
+
+.delivery_block h2{
+    padding-bottom: 10px;
+}
+
+.delivery_list {
+    list-style: none;
+    counter-reset: numbered-counter;
+    padding-left: 20px;
+}
+
+.delivery_list li{
+    padding: 5px 0;
+}
+  
+.delivery_list li:before {
+    content: counter(numbered-counter) ". ";
+    counter-increment: numbered-counter;
+    color: #f1463e;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -1.5em;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.payment > h2{
+    padding-bottom: 20px;
+}
+
+.payment p{
+    padding-bottom: 15px;
+}
+
+.payment_list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 50px;
+    color: #c9c9c9;
+    padding-left: 20px;
+}
+
+.payment_list li{
+    padding: 10px 0 20px 0;
+}
+
+.extradition{
+    padding-bottom: 20px;
+}
+
+.extradition h2{
+    padding-bottom: 20px;
+}
+
+.extradition p{
+    color: #c9c9c9;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,30 @@
+.consoles_wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* background-color: #e4e4e4; */
+    background-color: #4b535e;
+}
+
+.console_container{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.console_container h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.console_container_list{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3,390px);
+    gap: 50px 80px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    justify-content: center;
+}

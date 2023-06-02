@@ -1,0 +1,91 @@
+.add_game_modale_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    pointer-events: none;
+}
+
+.add_modal_active{
+    pointer-events: all;
+    opacity: 1;
+    z-index: 3;
+}
+
+.add_modal_active_container{
+    width: 590px;
+    height: 660px;
+    background-color: #21262B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.add_modal_active_container h3{
+    padding: 30px 0 35px;
+    color: #fff;
+}
+
+.add_modal_active_container input, .add_modal_active_container textarea{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #4B535E;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.add_modal_active_container input::placeholder,
+.add_modal_active_container textarea::placeholder {
+    color: #cccccc;
+}
+
+.default_input{
+    width: 505px;
+    height: 35px;  
+}
+
+.add_modal_active_container textarea{
+    width: 505px;
+    height: 115px;
+    border: 0;
+    resize: none;
+}
+
+.small_inputs{
+    display: grid;
+    grid-template-columns: repeat(2,244px);
+    grid-gap: 0 19px;
+}
+
+.small_input{
+    width: 245px;
+    height: 35px;
+}
+
+.add_modal_active_container button{
+    background-color: #007BFF;
+    border-radius: 10px;
+    color: #fff;
+    height: 40px;
+    width: 505px;
+    border: 0;
+}
+
+.add_modal_active_container button:hover{
+    background-color: #0265cf;
+}
+
+.add_modal_active_container button:active{
+    transform: scale(0.95);
+}

@@ -1,0 +1,732 @@
+{
+    "games": [
+      {
+        "id":1,
+        "title": "The Last of Us Part II",
+        "release_year": 2020,
+        "studio": "Naughty Dog",
+        "review": "Одна из лучших игр 2020 года. Она представляет собой удивительную историю о выживании в мире, пораженном пандемией грибка, который превращает людей в зараженных. Игра также поражает красивой графикой и захватывающим геймплеем. Несмотря на несколько спорных моментов сюжета, The Last of Us Part II является невероятным приключением, которое оставит долгое впечатление на игрока.",
+        "players": "1-8",
+        "completion_time": "25+",
+        "poster": "https://assets1.ignimgs.com/2020/03/05/last-of-us-2---button-2020-1583430650540.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "PlayStation 4",
+          "PlayStation 5"
+        ],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":2,
+        "title": "Cyberpunk 2077",
+        "release_year": 2020,
+        "studio": "CD Projekt Red",
+        "review": "Компьютерная игра в жанре action-adventure в открытом мире, действие которой происходит в 2077 году в вымышленном городе Найт-Сити. Игрок управляет настраиваемым протагонистом по имени Ви, который работает наёмником и владеет навыками взлома и боя. Несмотря на технические проблемы и некоторые спорные решения в сюжете, Cyberpunk 2077 является увлекательным путешествием в футуристический мир, полный приключений и опасностей.",
+        "players": "1",
+        "completion_time": "50+",
+        "poster": "https://assets-prd.ignimgs.com/2020/07/16/cyberpunk-2077-button-fin-1594877291453.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "PlayStation 4",
+          "PlayStation 5",
+          "Xbox One X",
+          "Xbox Series X/S"
+        ],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":3,
+        "title": "Animal Crossing: New Horizons",
+        "release_year": 2020,
+        "studio": "Nintendo",
+        "review": "Это игра от Nintendo, которая подходит для всех, кто хочет отдохнуть и расслабиться. В этой игре вы находитесь на необитаемом острове и можете создавать свой уютный дом, выращивать растения и заводить друзей среди животных. Animal Crossing: New Horizons - это идеальная игра для тех, кто хочет уйти от повседневной рутины и провести время в спокойной и уютной атмосфере.",
+        "players": "1-8",
+        "completion_time": "Неограниченно",
+        "poster": "https://assets1.ignimgs.com/2020/05/05/animal-crossing-new-horizons---button-fin-1588641487551.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "Nintendo Switch"
+        ],
+        "rating": "8.5",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":4,
+        "title": "Red Dead Redemption 2",
+        "release_year": 2018,
+        "studio": "Rockstar Games",
+        "review": "Игра обладает потрясающей красотой и атмосферой Дикого Запада, глубокими персонажами и интересным сюжетом. Идеально для любителей приключений.",
+        "players": "1-32",
+        "completion_time": "60+",
+        "poster": "https://assets1.ignimgs.com/2016/10/18/red-dead-redemption-2-buttonjpg-f9ad35.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "PlayStation 4",
+          "PlayStation 5",
+          "Xbox One X",
+          "Xbox Series X/S"
+        ],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":5,
+        "title": "Hades",
+        "release_year": 2020,
+        "studio": "Supergiant Games",
+        "review": "Hades - это отличная игра, которая сочетает в себе элементы рогалика и экшена. Игроки играют за сына бога мертвецов и должны бороться с различными врагами, чтобы достичь Олимпа. Прекрасная графика и отличное звуковое оформление.",
+        "players": "1",
+        "completion_time": "20-30+",
+        "poster": "https://assets-prd.ignimgs.com/2020/09/17/hades-button-fin-1600382124693.png?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "Nintendo Switch"
+        ],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":6,
+        "title": "Death Stranding",
+        "release_year": 2019,
+        "studio": "Kojima Productions",
+        "review": "Death Stranding - это игра, созданная Хидео Кодзимой. Игрок играет за главного героя, который должен доставить груз через опасные территории, чтобы восстановить связь между различными городами. Отличная графика и звуковое оформление, а также уникальный геймплей.",
+        "players": "1",
+        "completion_time": "40-60+",
+        "poster": "https://assets1.ignimgs.com/2019/07/21/death-stranding---button-20197-1563692244528.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "PlayStation 4",
+          "PlayStation 5"
+        ],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":7,
+        "title": "Resident Evil Village",
+        "release_year": 2021,
+        "studio": "Capcom",
+        "review": "Resident Evil Village - это последняя игра в серии Resident Evil. Она представляет собой комбинацию выживания и ужаса, которая переносит игроков в деревню в горах, где они должны сражаться с различными монстрами и выживать. Отличная графика и звуковое оформление.",
+        "players": "1",
+        "completion_time": "12+",
+        "poster": "https://assets-prd.ignimgs.com/2021/01/22/re-village-button-fin-1611277715193.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+          "PlayStation 4",
+          "PlayStation 5",
+          "Xbox One X",
+          "Xbox Series X/S"
+        ],
+        "rating": "7",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":8,
+        "title": "Horizon Zero Dawn",
+        "release_year": 2017,
+        "studio": "Guerrilla Games",
+        "review": "Horizon Zero Dawn - это одна из лучших игр для PlayStation 4. Она предлагает захватывающий мир, уникальный сеттинг и увлекательный сюжет. Бои с машинами динозаврами выглядят очень эффектно, а графика и звуковое оформление на высшем уровне.",
+        "players": "1",
+        "completion_time": "50+",
+        "poster": "https://assets-prd.ignimgs.com/2021/12/08/horizonzerodawn-1638924347525.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": [
+            "PlayStation 4"
+        ],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":9,
+        "title": "Assassin's Creed Valhalla",
+        "release_year": 2020,
+        "studio": "Ubisoft Montreal",
+        "review": "Assassin's Creed Valhalla - это новое приключение из знаменитой серии, которое погружает игроков в эпоху викингов и позволяет испытать себя в роли легендарного воина.",
+        "players": "1",
+        "completion_time": "50-100+",
+        "poster": "https://assets1.ignimgs.com/2020/04/30/assassins-creed-valhalla---button-fin-1588268099443.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Xbox Series X/S", "PlayStation 5"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":10,
+        "title": "Monster Hunter: World",
+        "release_year": 2018,
+        "studio": "Capcom",
+        "review": "Monster Hunter: World - это игра, которая переносит игроков в мир охоты на чудовищ и позволяет испытать себя в роли настоящего охотника.",
+        "players": "1-4",
+        "completion_time": "50-100+",
+        "poster": "https://assets-prd.ignimgs.com/2021/12/09/monsterhunterworld-1639016585422.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Xbox One X", "PlayStation 4"],
+        "rating": "6",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":11,
+        "title": "Fallout 4",
+        "release_year": 2015,
+        "studio": "Bethesda Game Studios",
+        "review": "Fallout 4 - это классическая игра в жанре RPG, которая переносит игроков в постапокалиптический мир и позволяет свободно исследовать его.",
+        "players": "1",
+        "completion_time": "30-50+",
+        "poster": "https://assets-prd.ignimgs.com/2021/12/07/fallout4-1638841806342.png?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Xbox One X", "PlayStation 4"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":12,
+        "title": "Control",
+        "release_year": 2019,
+        "studio": "Remedy Entertainment",
+        "review": "Control - это отличная игра с интересным сюжетом и оригинальной механикой. Визуально она великолепна и создает уникальную атмосферу.",
+        "players": "1",
+        "completion_time": "15+",
+        "poster": "https://assets-prd.ignimgs.com/2022/02/04/control-sq-1643934861039.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5", "Xbox One X", "Xbox Series X/S"],
+        "rating": "7",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":13,
+        "title": "The Witcher 3: Wild Hunt",
+        "release_year": 2015,
+        "studio": "CD Projekt RED",
+        "review": "Одна из лучших ролевых игр в истории. Великолепный мир, отличный сюжет, интересные персонажи и геймплей.",
+        "players": "1",
+        "completion_time": "60+",
+        "poster": "https://assets-prd.ignimgs.com/2021/12/08/witcher3-1638987659679.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "Xbox One X"],
+        "rating": "10",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":14,
+        "title": "It Takes Two",
+        "release_year": 2021,
+        "studio": "Hazelight Studios",
+        "review": "Прекрасная кооперативная игра с интересным геймплеем и захватывающей историей. Отлично подходит для игры с друзьями или семьей.",
+        "players": "2",
+        "completion_time": "12+",
+        "poster": "https://assets-prd.ignimgs.com/2021/02/12/it-takes-two-button-fin-1613088419470.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5", "Xbox One X", "Xbox Series X/S"],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":15,
+        "title": "Psychonauts 2",
+        "release_year": 2021,
+        "studio": "Double Fine Productions",
+        "review": "Отличный платформер с интересным геймплеем, забавными персонажами и захватывающей историей. Обязательно к прохождению для любителей жанра.",
+        "players": "1",
+        "completion_time": "20+",
+        "poster": "https://assets-prd.ignimgs.com/2020/07/23/psychonauts-2-button-2020-1595540304087.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5", "Xbox One X", "Xbox Series X/S"],
+        "rating": "7",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":16,
+        "title": "Outriders",
+        "release_year": 2021,
+        "studio": "People Can Fly",
+        "review": "Хардкорный шутер с элементами RPG и захватывающей историей. Отлично подходит для игры с друзьями в кооперативном режиме.",
+        "players": "1",
+        "completion_time": "20+",
+        "poster": "https://assets1.ignimgs.com/2019/06/15/outriders---button-02-1560558792975.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5", "Xbox One X", "Xbox Series X/S"],
+        "rating": "7",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":17,
+        "title": "Returnal",
+        "release_year": 2021,
+        "studio": "Housemarque",
+        "review": "Увлекательный шутер с элементами roguelike и захватывающей историей. Отлично подходит для игры на PlayStation 5.",
+        "players": "1",
+        "completion_time": "20+",
+        "poster": "https://assets-prd.ignimgs.com/2020/09/12/returnal-button-sep2020-1599871548208.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 5"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":18,
+      "title": "Deathloop",
+      "release_year": 2021,
+      "studio": "Arkane Studios",
+      "review": "Отличный шутер от первого лица с элементами stealth и захватывающей историей. Игрок играет за агента, который попадает в тайный остров, где ему нужно убить 8 целей за 24 часа.",
+      "players": "1",
+      "completion_time": "12+",
+      "poster": "https://assets-prd.ignimgs.com/2020/11/12/deathloop-button-1605211066759.jpg?width=300&crop=1%3A1%2Csmart",
+      "consoles": ["PlayStation 5"],
+      "rating": "7",
+      "price": {
+        "day": "5",
+        "three_day": "10",
+        "week": "20"
+      },
+      "comments": [
+        {
+          "id": 999,
+          "userName": "Иван",
+          "surname": "Иванов",
+          "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+        }
+      ]
+    },
+    {
+      "id":19,
+      "title": "Kena: Bridge of Spirits",
+      "release_year": 2021,
+      "studio": "Ember Lab",
+      "review": "Прекрасная приключенческая игра с красивой графикой, интересным сюжетом и забавными персонажами. Игрок играет за духов-собирателей, которые помогают душам умерших перейти в загробный мир.",
+      "players": "1",
+      "completion_time": "8+",
+      "poster": "https://assets-prd.ignimgs.com/2020/06/12/kena-bridge-of-spirits-button-01-1591929278036.jpg?width=300&crop=1%3A1%2Csmart",
+      "consoles": ["PlayStation 4", "PlayStation 5"],
+      "rating": "6",
+      "price": {
+        "day": "5",
+        "three_day": "10",
+        "week": "20"
+      },
+      "comments": [
+        {
+          "id": 999,
+          "userName": "Иван",
+          "surname": "Иванов",
+          "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+        }
+      ]
+    },
+    {
+      "id":20,
+        "title": "Ratchet & Clank: Rift Apart",
+        "release_year": 2021,
+        "studio": "Insomniac Games",
+        "review": "Отличный платформер с красивой графикой и интересными механиками. Игрок играет за Рэтчета и Кланка, которые попадают в параллельные миры и должны спасти свой мир.",
+        "players": "1",
+        "completion_time": "12+",
+        "poster": "https://assets-prd.ignimgs.com/2021/04/15/ratchet-and-clank-rift-apart-button-2021-1618517968604.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 5"],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":21,
+        "title": "Chicory: A Colorful Tale",
+        "release_year": 2021,
+        "studio": "Greg Lobanov",
+        "review": "Прекрасная арт-игра с забавным геймплеем и интересной механикой рисования. Игрок играет за Сикори, маленькую собаку-художника, которая должна вернуть цвет в мир.",
+        "players": "1",
+        "completion_time": "8+",
+        "poster": "https://assets-prd.ignimgs.com/2021/06/17/chicory-a-colorful-tale-button-fin-1623972005092.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5"],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":22,
+        "title": "Death's Door",
+        "release_year": 2021,
+        "studio": "Acid Nerve",
+        "review": "Отличный экшен-адвенчура с забавным сюжетом и интересной механикой. Игрок играет за ворона-героя, которая работает в Комитете для Смерти и должна вернуть украденную душу.",
+        "players": "1",
+        "completion_time": "8+",
+        "poster": "https://assets-prd.ignimgs.com/2021/09/22/deaths-door-button-fin-1632293296019.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Xbox Series X/S", "Xbox One X"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":23,
+        "title": "Back 4 Blood",
+        "release_year": 2021,
+        "studio": "Turtle Rock Studios",
+        "review": "Отличный кооперативный шутер от создателей Left 4 Dead. Игроки играют за команду выживших и сражаются с ордами зомби, используя различное оружие и способности.",
+        "players": "4",
+        "completion_time": "10+",
+        "poster": "https://assets-prd.ignimgs.com/2021/08/12/back-4-blood-button-fin-1628810823290.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["PlayStation 4", "PlayStation 5", "Xbox One X", "Xbox Series X/S"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":24,
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "release_year": 2017,
+        "studio": "Nintendo",
+        "review": "Breath of the Wild - это мастер-класс в дизайне открытого мира, предлагающий удивительно красивый мир, наполненный интересными персонажами и динамическими системами, которые делают исследование радостью.",
+        "players": "1",
+        "completion_time": "50+",
+        "poster": "https://assets-prd.ignimgs.com/2022/06/14/zelda-breath-of-the-wild-1655249167687.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Nintendo Switch"],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":25,
+        "title": "Halo Infinite",
+        "release_year": 2021,
+        "studio": "343 Industries",
+        "review": "Halo Infinite возвращает франшизу к ее корням с увлекательной кампанией и многопользовательским режимом, который обязательно заставит вас вернуться за еще.",
+        "players": "1-24",
+        "completion_time": "10+",
+        "poster": "https://assets-prd.ignimgs.com/2020/07/24/halo-infinite-button-2020-1595617876660.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Xbox Series X/S", "Xbox One X"],
+        "rating": "10",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":26,
+        "title": "Super Mario Odyssey",
+        "release_year": 2017,
+        "studio": "Nintendo",
+        "review": "Super Mario Odyssey - это любовное письмо длинной истории франшизы, с креативными уровнями и множеством скрытых секретов для открытия.",
+        "players": "1",
+        "completion_time": "10+",
+        "poster": "https://assets1.ignimgs.com/2017/09/01/super-mario-odyssey-button-fin-1504225715322.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Nintendo Switch"],
+        "rating": "7",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":27,
+        "title": "Stardew Valley",
+        "release_year": 2016,
+        "studio": "ConcernedApe",
+        "review": "Stardew Valley - это прекрасная фермерская игра, в которой вы будете управлять своей фермой, заботиться о растениях и животных, а также общаться с другими персонажами.",
+        "players": "1",
+        "completion_time": "Неограниченно",
+        "poster": "https://assets-prd.ignimgs.com/2021/12/20/stardewvalley-1640044262769.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Nintendo Switch"],
+        "rating": "9",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      },
+      {
+        "id":28,
+        "title": "Mario Kart 8 Deluxe",
+        "release_year": 2017,
+        "studio": "Nintendo",
+        "review": "Лучшая игра для мультиплеера, где вы можете соревноваться с друзьями за рулем любимых героев Nintendo.",
+        "players": "1-12",
+        "completion_time": "Неограниченно",
+        "poster": "https://assets1.ignimgs.com/2019/05/31/mario-kart-8-deluxe---button-1559265583166.jpg?width=300&crop=1%3A1%2Csmart",
+        "consoles": ["Nintendo Switch"],
+        "rating": "8",
+        "price": {
+          "day": "5",
+          "three_day": "10",
+          "week": "20"
+        },
+        "comments": [
+          {
+            "id": 999,
+            "userName": "Иван",
+            "surname": "Иванов",
+            "recall": "Отличная игра! Мне очень понравилось играть в The Last of Us Part II. Игровой процесс очень захватывающий, а графика просто потрясающая. Я бы рекомендовал эту игру всем своим друзьям."
+          }
+        ]
+      }
+    ]
+  }
+  

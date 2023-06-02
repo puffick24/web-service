@@ -1,0 +1,19 @@
+.console_poster_wrapper{
+    /* background-color: #dbd9db; */
+    background-color: #292F36;
+    border-radius: 30px;
+}
+
+.console_poster_container{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+.console_poster_container img{
+    width: 180px;
+}

@@ -1,0 +1,57 @@
+.not_found_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e4e4e4;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color:#000;
+    text-align: center;
+    width: 1200px;
+}
+
+.container img{
+    width: 400px;
+    height: 400px;
+}
+
+.container h1{
+    font-weight: 700;
+    font-weight:bold;
+}
+
+.container p {
+    padding: 10px;
+    color: #969696;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .container{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375){
+    .container{
+        font-size: 12px;
+    }
+}

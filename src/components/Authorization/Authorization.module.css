@@ -1,0 +1,198 @@
+.authorization_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    pointer-events: none;
+} 
+
+.auth_active{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.authorization_container{
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.5);
+    width: 900px;
+    height: 420px;
+    display: flex;
+    border-radius: 50px;
+    background-image: url('../../images/AuthBg.gif');
+}
+
+.authorization_content,.signUp_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.signUp_content{
+    background-color: #f3f3f3;
+    border-radius: 50px;
+}
+
+.authorization_inputs, .signUp_inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.authorization_content{
+    background-color: #f3f3f3;
+    border-radius: 50px;
+    display: none;
+}
+
+.authorization_container h2{
+    font-size: 35px;
+}
+
+.authorization_container input{
+    border-radius: 10px;
+    width: 260px;
+    height: 35px;
+    padding: 10px 14px;
+    margin: 10px 0;
+    border: 0;
+    background-color: #d3d3d3;
+}
+
+.authorization_container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.authorization_container button{
+    border-radius: 40px;
+    border: 0;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    background-color: #ab4a74;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.authorization_container button:hover{
+    transform: scale(1.1);
+}
+
+.authorization_content h2{
+    padding-bottom: 20px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.checkbox_button {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input{
+    width: 13px;
+    margin-right: 5px;
+}
+
+.checkbox a{
+    color: #535353;
+}
+
+.authorization_overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    color: #FFF;
+    display: none;
+}
+
+.authorization_overlay h2{
+    font-size: 30px;
+    padding: 40px 0 10px;
+}
+
+.authorization_overlay p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.authorization_overlay button{
+    background-color: rgba(99, 99, 99, 0.6);
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.authorization_overlay button:hover{
+    opacity: 1;
+}
+
+.signUp_overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.signUp_overlay h2{
+    font-size: 30px;
+    padding: 50px 0 20px;
+}
+
+.signUp_overlay p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.signUp_overlay button{
+    background-color: rgba(99, 99, 99, 0.6);
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.signUp_overlay button:hover{
+    opacity: 1;
+}
+
+.authorization_container.active .authorization_content{
+   display: flex;
+   transform: translateX(0%);
+}
+
+.authorization_container.active .authorization_overlay{
+    display: flex;
+    transform: translateX(0%);
+}
+
+.authorization_container.active .signUp_content{
+    display: none;
+    transform: translateX(100%);
+}
+
+.authorization_container.active .signUp_overlay{
+    display: none;
+    transform: translateX(0%);
+}
+
+.error_message{
+    color: red;
+    font-size: 12px;
+}

@@ -1,0 +1,80 @@
+.order_wrapper{
+    background-color: #e4e4e4;
+}
+
+.order_container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.order_container h3{
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.order_list{
+    padding: 0 40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    gap: 60px 80px;
+    margin: 0 auto;
+    color:#000;
+}
+
+.order_list li{
+    background-color: #dbd9db;
+    width: 320px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.order_border{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 20px auto 10px 20px;
+}
+
+.order_border p {
+    font-size: 20px;
+}
+
+.buttons a:hover{
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    width: 220px;
+    height: 60px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 40px auto 0;
+}
+
+.order_list h4{
+    font-size: 20px;
+    padding: 0 0 5px 20px;
+}
+
+.order_list li > p{
+    padding:0 15px 0 20px;
+    text-align: justify;
+    font-size: 16px;
+}
